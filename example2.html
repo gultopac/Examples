@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .tr {
+    }
+  </style>
+  <body>
+    <table border="2" width="450px" height="150px" style="margin:100px;">
+      <tbody>
+        <tr>
+          <th>AD:</th>
+          <td>
+            <input
+              type="text"
+              id="ad"
+              name="ad"
+              required
+              style="width:170px;"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th>SOYADI:</th>
+          <td>
+            <input
+              type="text"
+              id="soyad"
+              name="soyad"
+              required
+              style="width: 170px;"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th>YAŞ:</th>
+          <td>
+            <input
+              type="number"
+              id="yas"
+              name="yas"
+              required
+              style="width: 170px;"
+              placeholder="Yaşınız"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th>RESİM EKLE:</th>
+          <td><input type="file" id="resim" name="resim" /></td>
+        </tr>
+        <tr>
+          <th>TC KİMLİK NO:</th>
+          <td><input type="text" id="tc" name="tc" maxlength="11" /></td>
+        </tr>
+        <tr>
+          <th>CİNSİYET:</th>
+          <td>
+            K<input type="radio" id="cinsiyet" name="cinsiyet" />&emsp;&emsp;
+            E<input type="radio" id="cinsiyet" name="cinsiyet" />
+          </td>
+        </tr>
+        <tr>
+          <th>YABANCI DİLLER:</th>
+          <td>
+            İngilizce<input type="checkbox" id="dil" name="dil" />
+            Fransızca<input type="checkbox" id="dil" name="dil" /> Türkçe<input
+              type="checkbox"
+              id="dil"
+              name="dil"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th>GÖRÜŞ:</th>
+          <th><textarea name="görüs" id="görüs" placeholder="Görüşünüz"></textarea></th>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" name="kaydet" id="kaydet" value="KAYDET"/>
+                <input type="reset" name="sil" id="sil" value="TEMİZLE"/>
+            </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
